@@ -19,6 +19,11 @@ RTMPush is a simple script that captures video from a webcam and streams it to a
 - Customizable output URL
 - User-friendly command line interface
 - Built-in error handling
+##Make the Script Executable
+
+```bash
+chmod +x RTMPush.sh
+```
 
 ## Usage
 
