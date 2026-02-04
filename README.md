@@ -26,13 +26,15 @@ To stream video, run the script with the following command:
 
 ```bash
 ./stream_camera.sh <output_url> <video_device>
+```
 
 
 **Example**:
 
+
 ```bash
 ./stream_camera.sh rtmp://localhost/live /dev/video0
-
+```
 
 ## Requirements
 
@@ -41,7 +43,7 @@ To stream video, run the script with the following command:
 ```bash
 sudo apt update
 sudo apt install ffmpeg
-
+```
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
