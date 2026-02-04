@@ -23,7 +23,7 @@ RTMPush is a simple script that captures video from a webcam and streams it to a
 ##Make the Script Executable
 
 ```bash
-chmod +x RTMPush.sh
+chmod +x RTMPush
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ chmod +x RTMPush.sh
 To stream video, run the script with the following command:
 
 ```bash
-./stream_camera.sh <output_url> <video_device>
+./RTMPush <output_url> <video_device>
 ```
 
 
@@ -39,7 +39,7 @@ To stream video, run the script with the following command:
 
 
 ```bash
-./stream_camera.sh rtmp://localhost/live /dev/video0
+./RTMPush rtmp://localhost/live /dev/video0
 ```
 
 **Kill the Process Manually**:
