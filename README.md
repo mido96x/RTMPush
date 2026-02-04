@@ -24,18 +24,23 @@ RTMPush is a simple script that captures video from a webcam and streams it to a
 
 To stream video, run the script with the following command:
 
+```bash
 ./stream_camera.sh <output_url> <video_device>
 
 
 **Example**:
 
-
+```bash
 ./stream_camera.sh rtmp://localhost/live /dev/video0
 
 
 ## Requirements
 
 - FFmpeg installed on your system.
+
+```bash
+sudo apt update
+sudo apt install ffmpeg
 
 ## License
 
